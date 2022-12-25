@@ -1,0 +1,63 @@
+.form {
+  width:100%;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.input {
+  border-radius: 40px;
+  padding: 1%;
+  width: 90%;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border:none;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background:  rgb(18,139,126);
+  padding: 14px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border: none;
+  width: 60px;
+  font-size: 25px;
+  cursor:pointer;
+}
+.picker-container {
+  position: relative;
+  width: 300px;
+}
+.emoji-icon {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right:10px;
+  max-width: 40px;
+  cursor:pointer;
+}
+
+@media (min-width: 970px) and (max-width: 1200px) {
+  .input {
+    width: 80%;
+  }
+}
+@media (min-width: 480px) and (max-width: 970px) {
+  .input {
+    width: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 610px) {
+  .input {
+    width: 70%;
+  }
+}
